@@ -1,35 +1,27 @@
 <script setup>
-import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "./components/HelloWorld.vue";
+import { RouterLink, RouterView } from 'vue-router'
+import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
   <header>
-    <img
-      alt="Vue logo"
-      class="logo"
-      src="@/assets/logo.svg"
-      width="125"
-      height="125"
-    />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
+    <nav class="wrapper">
+      <div class="myself">
+        <RouterLink to="/">Mara Krukovska</RouterLink>
+      </div>
+      <div>
+        <RouterLink to="/contacts">Contacts</RouterLink>
         <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
+        <RouterLink to="/projects">Projects</RouterLink>
+      </div>
+    </nav>
   </header>
-
-  <RouterView />
+  <RouterView/>
 </template>
 
 <style scoped>
 header {
   line-height: 1.5;
-  max-height: 100vh;
 }
 
 .logo {
@@ -66,17 +58,17 @@ nav a:first-of-type {
   header {
     display: flex;
     place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
   }
 
   .logo {
     margin: 0 2rem 0 0;
   }
 
-  header .wrapper {
+  .wrapper {
+    width:100%;
     display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   nav {
