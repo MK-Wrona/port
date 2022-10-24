@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/Projects.vue'
 </script>
 
 <template>
@@ -19,7 +19,7 @@ import HelloWorld from './components/HelloWorld.vue'
   <RouterView/>
 </template>
 
-<style scoped>
+<style>
 header {
   line-height: 1.5;
 }

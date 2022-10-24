@@ -1,9 +1,13 @@
 <script setup>
-import TheWelcome from "../components/TheWelcome.vue";
+import Promo from "../components/Promo.vue";
+import Projects from "../components/Projects.vue";
+import Footer from "../components/Footer.vue";
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <Promo />
+    <Projects />
+    <Footer />
   </main>
 </template>
