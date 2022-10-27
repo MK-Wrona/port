@@ -1,32 +1,30 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/Projects.vue'
+import Footer from "./components/Footer.vue";
 </script>
 
 <template>
   <header>
     <nav class="wrapper">
       <div class="myself">
-        <RouterLink to="/">Mara Krukovska</RouterLink>
+        <img src="src/assets/logo_portfolio.svg" class="main_logo"/>
+        <RouterLink to="/"><span class="header_link">Mara Krukovska</span></RouterLink>
       </div>
       <div>
-        <RouterLink to="/contacts">Contacts</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/projects">Projects</RouterLink>
+        <RouterLink to="/contacts"><span class="header_link">Contacts</span></RouterLink>
+        <RouterLink to="/about"><span class="header_link">About</span></RouterLink>
+        <RouterLink to="/projects"><span class="header_link">Projects</span></RouterLink>
       </div>
     </nav>
   </header>
   <RouterView/>
+  <Footer />
 </template>
 
 <style>
 header {
   line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
 }
 
 nav {
@@ -38,20 +36,38 @@ nav {
 
 nav a.router-link-exact-active {
   color: var(--color-text);
+  text-decoration: none;
 }
 
 nav a.router-link-exact-active:hover {
   background-color: transparent;
+  text-decoration: none;
 }
 
 nav a {
   display: inline-block;
   padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
+  border-left: 1px solid #3DDC84;
+  text-decoration: none;
 }
 
 nav a:first-of-type {
   border: 0;
+}
+.myself {
+  display: flex;
+  justify-content: center;
+}
+.header_link {
+  color: white;
+  padding: 5px 10px 10px;
+}
+.header_link:hover {
+  background-color: #2F2F2F;
+  border-radius: 10px;
+}
+.main_logo {
+  margin-top: -5px;
 }
 
 @media (min-width: 1024px) {

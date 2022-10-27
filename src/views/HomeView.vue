@@ -8,6 +8,5 @@ import Footer from "../components/Footer.vue";
   <main>
     <Promo />
     <Projects />
-    <Footer />
   </main>
 </template>
