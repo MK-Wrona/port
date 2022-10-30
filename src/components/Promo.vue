@@ -17,11 +17,12 @@
 </template>
 <style>
 .home__photo {
-  width:200px;
-  height:250px;
+  border-radius: 50%;
+  width:500px;
+  height:500px;
 }
 .home__wrapper {
-  padding:54px 0px 54px;
+  padding:40px 0px 65px;
   width:100%;
   display: flex;
   flex-direction: row;
@@ -44,6 +45,7 @@
   width:500px;
   display: flex;
   flex-direction: column;
+  padding-top: 50px;
 }
 .home_button-holder {
   width:40%;

@@ -23,5 +23,18 @@ h2 {
   max-width:fit-content;
   font-weight: bold;
   font-size: 40px;
-
+}
+input {
+  margin-bottom: 40px;
+  width:100%;
+}
+ul{
+  list-style-type: none;
+  padding: 0px;
+}
+li{
+  list-style-type: none;
+}
+textarea {
+  width:100%;
 }
