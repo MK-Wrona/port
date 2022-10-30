@@ -1,0 +1,1 @@
+import{_ as e,o,c as t}from"./index.96d10ed0.js";const c={name:"ProjectsView"};function s(r,a,n,p,i,_){return o(),t("div",null," This is a project page, pal! ")}const f=e(c,[["render",s]]);export{f as default};
