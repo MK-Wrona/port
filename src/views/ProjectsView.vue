@@ -1,13 +1,11 @@
 <template>
-  <div>
-    This is a project page, pal!
-  </div>
+  <main>
+    <Projects />
+  </main>
 </template>
 
-<script>
-export default {
-  name: 'ProjectsView',
-}
+<script setup>
+import Projects from "../components/Projects.vue";
 </script>
 
 <style scoped>

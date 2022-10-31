@@ -8,7 +8,7 @@ import Footer from "./components/Footer.vue";
   <header>
     <nav class="wrapper">
       <div class="myself">
-        <img src="src/assets/logo_portfolio.svg" class="main_logo"/>
+        <img src="/src/assets/logo_portfolio.svg" class="main_logo"/>
         <RouterLink to="/"><span class="header_link">Mara Krukovska</span></RouterLink>
       </div>
       <div>

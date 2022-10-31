@@ -6,10 +6,10 @@
     <div class="promo_text">
       <span class="promo_prof">WEB-DEVELOPER</span>
       <span class="promo_highlight">Hello, my name is Mara Krukovska</span>
-      <p class="promo_desc">Short text with details about you, what you do or your professional career. You can add more information on the about page.</p>
+      <p class="promo_desc">Hardworking and highly motivated individual who is striving to obtain a challenging position in a highly regarded company where one can demonstrate extensive knowledge towards the company's growth and profitability.</p>
       <div class="home_button-holder">
-        <button class="home_btn">Indeed</button>
-        <button class="home_btn">LinkedIn</button>
+        <a href="https://www.linkedin.com/in/mara-krukovska-024565252/" class="home_btn">LinkedIn</a>
+        <a href="https://drive.google.com/file/d/1QnewSrliEfcUjx2tYgKT9Z0EZoUaT--q/view?usp=sharing" class="home_btn">Resume</a>
       </div>
     </div>
     <img class="home__photo" src="../assets/photo_of_me_cut.jpg">
@@ -42,7 +42,7 @@
   padding: 32px 0px 32px;
 }
 .promo_text {
-  width:500px;
+  width:550px;
   display: flex;
   flex-direction: column;
   padding-top: 50px;
@@ -58,6 +58,8 @@
   font-weight: bold;
   border-radius: 10px;
   padding: 10px 10px 10px;
+  text-decoration: none;
+  color:black;
 }
 .home_btn:hover {
   color:white;

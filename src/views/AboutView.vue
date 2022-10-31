@@ -1,49 +1,60 @@
 <template>
   <div class="about">
     <div>
-    <h2>About me</h2>
-    <p class="about_desc">Nisl arcu, scelerisque neque ut. Tincidunt amet, tempor duis tortor neque auctor dis ipsum. Pretium cras amet
-      odio amet eleifend id sed cras sed. Aliquet risus posuere aliquet imperdiet sit.</p>
-      <a href="" class="about_link">Resume</a>
-  </div>
-    <img class="about_pic" src="src/assets/copy.jpg">
+      <h2>About me</h2>
+      <p class="about_desc">My name is Mara Krukovska. I'm a Web-developer of Ukrainian origin based in Toronto. I
+        describe myself as a passionate developer who loves coding, open source, and the web platform .</p>
+      <p class="about_desc">Aside from my job, I like to create and contribute to open source projects. That helps me to learn a ton of new
+        stuff, grow as a developer and support other open source projects.<br/>
+        In my free time you can find me participating in DND sessions, playing video games or playing basketball at the
+        nearest gym.</p>
+      <a href="https://drive.google.com/file/d/1QnewSrliEfcUjx2tYgKT9Z0EZoUaT--q/view?usp=share_link"
+         class="about_link">Resume</a>
+    </div>
+    <img class="about_pic" src="/src/assets/copy.jpg">
   </div>
 </template>
 
 <style>
 .about {
-  width:100%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-top: 10px;
 }
-.about_pic{
-  width:400px;
-  height:400px;
+
+.about_pic {
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
+  margin-right: 30px;
 }
-.about_desc{
-  width:50%;
-  padding: 32px 0px 32px;
+
+.about_desc {
+  width: 600px;
+  padding: 32px 0px 18px;
 
 }
+
 .about_link {
   border-radius: 5px;
   background-color: #3DDC84;
   text-decoration: none;
-  border:none;
+  border: none;
   font-weight: bold;
   padding: 10px 10px 10px;
-  color:black;
+  color: black;
 }
+
 .about_link:hover {
   border-radius: 5px;
   background-color: #202020;
   text-decoration: none;
   font-weight: bold;
   padding: 9px 9px 9px;
-  color:white;
-  border:1px solid white;
+  color: white;
+  border: 1px solid white;
 }
 </style>

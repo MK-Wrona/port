@@ -2,13 +2,13 @@
   <div class="footer">
     <div class="footer_links">
       <a href="https://github.com/MK-Wrona">
-        <img class="filter_green" src="src/assets/github.svg"/>
+        <img class="filter_green" src="/src/assets/github.svg"/>
       </a>
-      <a href="https://github.com/MK-Wrona">
-        <img class="filter_green" src="src/assets/linkedin.svg"/>
+      <a href="https://www.linkedin.com/in/mara-krukovska-024565252/">
+        <img class="filter_green" src="/src/assets/linkedin.svg"/>
       </a>
-      <a href="https://github.com/MK-Wrona">
-        <img class="filter_green" src="src/assets/mail.svg"/>
+      <a href="/port/contacts/">
+        <img class="filter_green" src="/src/assets/mail.svg"/>
       </a>
     </div>
     <div class="footer_copyright">
