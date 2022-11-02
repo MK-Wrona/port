@@ -26,12 +26,11 @@ import Footer from "./components/Footer.vue";
 header {
   line-height: 1.5;
 }
-
 nav {
   width: 100%;
   font-size: 12px;
   text-align: center;
-  margin-top: 2rem;
+  padding-top: 2rem;
 }
 
 nav a.router-link-exact-active {
@@ -76,10 +75,6 @@ nav a:first-of-type {
     place-items: center;
   }
 
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
   .wrapper {
     width:100%;
     display: flex;
@@ -94,6 +89,28 @@ nav a:first-of-type {
 
     padding: 1rem 0;
     margin-top: 1rem;
+  }
+}
+@media only screen and (max-width: 768px)  {
+  .main_logo {
+    width:24px;
+    height:24px;
+    margin-top: 0px;
+    margin-right: -12px;
+  }
+  .myself {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding-bottom: 8px;
+  }
+}
+@media only screen and (max-width: 340px)  {
+  nav a {
+    padding: 0;
+  }
+  .main_logo {
+    margin-right: -4px;
   }
 }
 </style>

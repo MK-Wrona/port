@@ -197,6 +197,7 @@ export default {
 
 .form_message {
   height: 100px;
+  border-radius: 10px;
 }
 
 .input_error {
@@ -248,5 +249,20 @@ export default {
 
 .popup_visibility {
   visibility: visible;
+}
+@media screen and (max-width: 460px){
+  .form {
+    width: 100%;
+    padding-top: 40px;
+  }
+  .form_submit {
+    align-self: center;
+    width:100%;
+  }
+}
+@media screen and (max-width: 768px){
+  .form_wrapper {
+    padding-top:20px;
+  }
 }
 </style>

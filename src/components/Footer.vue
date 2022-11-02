@@ -29,7 +29,7 @@
   width:200px;
   display: flex;
   justify-content: space-evenly;
-  padding:100px 0px 35px;
+  padding:80px 0px 30px;
 }
 .filter_green {
   filter: invert(78%) sepia(84%) saturate(407%) hue-rotate(77deg) brightness(90%) contrast(91%);
@@ -42,5 +42,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+@media screen and (max-width: 500px) {
+  .footer_links {
+    padding:40px 0px 15px;
+  }
 }
 </style>

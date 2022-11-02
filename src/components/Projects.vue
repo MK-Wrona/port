@@ -84,26 +84,21 @@
 </template>
 
 <style>
-.home_projects-wrapper {
-  padding: 20px 0px 20px;
-  flex-direction: column;
-  column-gap: 20px;
-}
-
 .home_projects {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-.project_wrapper {
-  justify-self: center;
+.highlight_wrapper {
   display: flex;
-  width: 990px;
   flex-direction: row;
-  border-radius: 20px;
-  margin: 30px 0px 30px;
+  justify-content: center;
+}
+.home_projects-wrapper {
+  padding: 20px 0px 20px;
+  flex-direction: column;
+  column-gap: 20px;
 }
 
 .project_pic {
@@ -120,14 +115,8 @@
   padding: 24px 0px 24px;
 }
 
-.highlight_wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
 .project_desc {
-  width: 50%;
+  width: 100%;
   background-color: #2F2F2F;
   display: flex;
   flex-direction: column;
@@ -157,10 +146,29 @@
   border-radius: 5px;
   background-color: #202020;
   text-decoration: none;
-  border: none;
   font-weight: bold;
   padding: 9px 9px 9px;
   color: white;
   border: 1px solid white;
+}
+.project_wrapper {
+  justify-self: center;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  border-radius: 20px;
+  margin: 30px 0px 30px;
+}
+@media screen and (max-width: 1024px) {
+  .project_wrapper {
+    flex-direction: column;
+  }
+  .project_wrapper:nth-of-type(even) {
+    flex-direction: column-reverse;
+  }
+  .project_pic {
+    width: 100%;
+    height:360px;
+  }
 }
 </style>

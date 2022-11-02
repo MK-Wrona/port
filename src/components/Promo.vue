@@ -69,4 +69,35 @@
   border-radius: 10px;
   padding: 9px 9px 9px;
 }
+@media screen and (max-width: 1024px){
+  .home__wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .promo_text {
+    text-align: center;
+  }
+  .home_button-holder {
+   align-self: center;
+  }
+}
+@media screen and (max-width: 580px){
+  .home__photo {
+    border-radius: 50%;
+    width:300px;
+    height:300px;
+  }
+  .promo_highlight {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 60px;
+  }
+  .promo_text {
+    width:100%;
+  }
+  .home_button-holder {
+    align-self: center;
+    width:100%
+  }
+}
 </style>
