@@ -68,18 +68,16 @@ nav a:first-of-type {
 .main_logo {
   margin-top: -5px;
 }
-
+.wrapper {
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 @media (min-width: 1024px) {
   header {
     display: flex;
     place-items: center;
-  }
-
-  .wrapper {
-    width:100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
   }
 
   nav {
@@ -91,7 +89,13 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
-@media only screen and (max-width: 768px)  {
+@media only screen and (max-width: 767px)  {
+  .wrapper {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .main_logo {
     width:24px;
     height:24px;
@@ -110,7 +114,7 @@ nav a:first-of-type {
     padding: 0;
   }
   .main_logo {
-    margin-right: -4px;
+    margin-right: -8px;
   }
 }
 </style>

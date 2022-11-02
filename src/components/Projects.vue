@@ -1,7 +1,7 @@
 <template>
-  <div class="highlight_wrapper"><h2>My Projects</h2></div>
-  <div class="home_projects">
-    <div class="home_projects-wrapper">
+  <div class="projects_highlight-wrapper"><h2>My Projects</h2></div>
+  <div class="projects">
+    <div class="projects-wrapper">
       <div class="project_wrapper">
         <img src="/src/assets/keyauto_pic.jpg" class="project_pic"/>
         <div class="project_desc">
@@ -84,18 +84,18 @@
 </template>
 
 <style>
-.home_projects {
+.projects {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.highlight_wrapper {
+.projects_highlight-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.home_projects-wrapper {
+.projects-wrapper {
   padding: 20px 0px 20px;
   flex-direction: column;
   column-gap: 20px;
@@ -169,6 +169,11 @@
   .project_pic {
     width: 100%;
     height:360px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .project_pic {
+    height:240px;
   }
 }
 </style>

@@ -8,8 +8,8 @@
       <span class="promo_highlight">Hello, my name is Mara Krukovska</span>
       <p class="promo_desc">Hardworking and highly motivated individual who is striving to obtain a challenging position in a highly regarded company where one can demonstrate extensive knowledge towards the company's growth and profitability.</p>
       <div class="home_button-holder">
-        <a href="https://www.linkedin.com/in/mara-krukovska-024565252/" class="home_btn">LinkedIn</a>
-        <a href="https://drive.google.com/file/d/1QnewSrliEfcUjx2tYgKT9Z0EZoUaT--q/view?usp=sharing" class="home_btn">Resume</a>
+        <a target="_blank" href="https://www.linkedin.com/in/mara-krukovska-024565252/" class="home_btn">LinkedIn</a>
+        <a target="_blank" href="https://drive.google.com/file/d/1qon9Z0l5rFREs6_bVxL04hIOLG0a_1a8/view?usp=sharing" class="home_btn">Resume</a>
       </div>
     </div>
     <img class="home__photo" src="../assets/photo_of_me_cut.jpg">

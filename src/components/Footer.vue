@@ -1,17 +1,17 @@
 <template xmlns="http://www.w3.org/1999/html">
   <div class="footer">
-    <div class="footer_links">
-      <a href="https://github.com/MK-Wrona">
+    <div class="footer__links">
+      <a target="_blank" href="https://github.com/MK-Wrona">
         <img class="filter_green" src="/src/assets/github.svg"/>
       </a>
-      <a href="https://www.linkedin.com/in/mara-krukovska-024565252/">
+      <a target="_blank" href="https://www.linkedin.com/in/mara-krukovska-024565252/">
         <img class="filter_green" src="/src/assets/linkedin.svg"/>
       </a>
       <a href="/port/contacts/">
         <img class="filter_green" src="/src/assets/mail.svg"/>
       </a>
     </div>
-    <div class="footer_copyright">
+    <div class="footer__copyright">
       <span>Mara Krukovska</span>
       <p>&copy; {{new Date().getFullYear()}}</p>
     </div>
@@ -25,7 +25,7 @@
   flex-direction: column;
   align-items: center;
 }
-.footer_links {
+.footer__links {
   width:200px;
   display: flex;
   justify-content: space-evenly;
@@ -36,7 +36,7 @@
   width: 37px;
   height: 37px;
 }
-.footer_copyright {
+.footer__copyright {
   padding:10px 0px 25px;
   display:flex;
   flex-direction: column;
@@ -44,7 +44,7 @@
   justify-content: center;
 }
 @media screen and (max-width: 500px) {
-  .footer_links {
+  .footer__links {
     padding:40px 0px 15px;
   }
 }

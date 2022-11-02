@@ -8,7 +8,7 @@
         stuff, grow as a developer and support other open source projects.<br/>
         In my free time you can find me participating in DND sessions, enjoying video games or playing basketball at the
         nearest gym.</p>
-      <a href="https://drive.google.com/file/d/1QnewSrliEfcUjx2tYgKT9Z0EZoUaT--q/view?usp=share_link"
+      <a target="_blank" href="https://drive.google.com/file/d/1qon9Z0l5rFREs6_bVxL04hIOLG0a_1a8/view?usp=sharing"
          class="about_link">Resume</a>
     </div>
     <img class="about_pic" src="/src/assets/copy.jpg">
