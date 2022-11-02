@@ -258,11 +258,24 @@ export default {
   .form_submit {
     align-self: center;
     width:100%;
+    min-height: 35px;
+    margin-top: 10px;
+  }
+  .form_popup {
+    width: 100%;
   }
 }
 @media screen and (max-width: 768px){
   .form_wrapper {
     padding-top:20px;
+  }
+  .form_popup {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 376px){
+  .form_popup {
+    width: 100%;
   }
 }
 </style>

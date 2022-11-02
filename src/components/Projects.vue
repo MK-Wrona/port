@@ -16,7 +16,7 @@
             <li class="project_desc_list">Created configurable and reusable components using VueJS, using life cycle methods, DOM event handling.
             </li>
           </ul>
-          <a href="https://keyauto.ru/" class="project_link">View Project</a>
+          <a target="_blank" href="https://keyauto.ru/" class="project_link">View Project</a>
         </div>
       </div>
       <div class="project_wrapper">
@@ -29,7 +29,7 @@
               to support the screen Compatibility and Resolution.
             </li>
           </ul>
-          <a href="https://www.rolf.ru/" class="project_link">View Project</a>
+          <a target="_blank" href="https://www.rolf.ru/" class="project_link">View Project</a>
         </div>
         <img src="/src/assets/rolf_pic.jpg" class="project_pic"/>
       </div>
@@ -45,7 +45,7 @@
             <li class="project_desc_list">Troubleshooted and investigated issues with existing software applications.
             </li>
           </ul>
-          <a href="https://keyauto-lite.ru/" class="project_link">View Project</a>
+          <a target="_blank" href="https://keyauto-lite.ru/" class="project_link">View Project</a>
         </div>
       </div>
       <div class="project_wrapper">
@@ -60,7 +60,7 @@
               Systematized and organized all the data used in the application using Laravel migrations and MySQL.
             </li>
           </ul>
-          <a href="https://luidor-expert.ru/" class="project_link">View Project</a>
+          <a target="_blank" href="https://luidor-expert.ru/" class="project_link">View Project</a>
         </div>
         <img src="/src/assets/luidor_pic.jpg" class="project_pic"/>
       </div>
@@ -76,7 +76,7 @@
             <li class="project_desc_list">Audited and debugged  sites to ensure it is consistent and is responsive on all devices.
             </li>
           </ul>
-          <a href="https://mk-wrona.github.io/russian-travel/" class="project_link">View Project</a>
+          <a target="_blank" href="https://mk-wrona.github.io/russian-travel/" class="project_link">View Project</a>
         </div>
       </div>
     </div>

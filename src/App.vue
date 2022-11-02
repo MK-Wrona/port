@@ -109,12 +109,13 @@ nav a:first-of-type {
     padding-bottom: 8px;
   }
 }
-@media only screen and (max-width: 340px)  {
+@media only screen and (max-width: 426px)  {
   nav a {
     padding: 0;
+    margin-top: -2px;
   }
   .main_logo {
-    margin-right: -8px;
+    margin-right: -6px;
   }
 }
 </style>

@@ -99,6 +99,7 @@
   }
   .about_link{
     align-self: center;
+    text-align: center;
   }
 }
 </style>
